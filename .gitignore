@@ -1,5 +1,9 @@
 /node_modules0
 /.upm
 /.git
+.gitignore
 tsconfig.json
 package-lock.json
+
+replit.nix
+.replit
