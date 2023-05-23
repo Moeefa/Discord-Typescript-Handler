@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "ESNEXT",
+		"module": "commonjs",
+		"lib": [
+			"DOM"
+		],
+    "typeRoots": [
+			"./node_modules/@types",
+		],
+		"outDir": "./dist",
+		"rootDir": ".",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"removeComments": true,
+		"allowJs": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "forceConsistentCasingInFileNames": true
+	},
+	"exclude": [
+		"node_modules"
+	]
+}
